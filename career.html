@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Careers | Nova Frames Entertainment</title>
+  <style>
+    :root {
+      --primary-color: #000;
+      --accent-color: #ff4c60;
+      --bg-color: #fff;
+      --text-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: #fff;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    section.career {
+      padding: 3rem 1rem;
+    }
+
+    h1, h2 {
+      margin-bottom: 1rem;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo"><strong>Nova Frames</strong></div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="career.html">Career</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="career">
+    <div class="container">
+      <h1>Join Our Team</h1>
+      <p>
+        Nova Frames Entertainment is always on the lookout for passionate, talented, and creative individuals to be a part of our journey. If you're excited about storytelling through stunning visuals and want to collaborate with a vibrant team, we’d love to hear from you!
+      </p>
+      <p>
+        📧 To express your interest or apply, please send your resume and portfolio to
+        <strong><a href="mailto:careers@novaframesent.com">careers@novaframesent.com</a></strong>.
+      </p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Nova Frames Entertainment. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
