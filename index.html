@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nova Frames Entertainment</title>
+  <style>
+    :root {
+      --primary-color: #000;
+      --accent-color: #ff4c60;
+      --bg-color: #fff;
+      --text-color: #333;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--primary-color);
+      color: #fff;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 1rem;
+    }
+
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin-left: 1rem;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      color: var(--accent-color);
+    }
+
+    .hero {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      color: #555;
+    }
+
+    .under-construction {
+      margin-top: 2rem;
+      padding: 1rem;
+      background-color: #f9f9f9;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+
+    .under-construction h2 {
+      font-size: 2rem;
+      color: var(--primary-color);
+    }
+
+    .under-construction p {
+      font-size: 1.2rem;
+      color: #666;
+    }
+
+    footer {
+      background: #f0f0f0;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      margin-top: 3rem;
+    }
+
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      nav a {
+        margin: 0.5rem 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="logo"><strong>Nova Frames</strong></div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About</a>
+          <a href="career.html">Career</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <h1>Welcome to Nova Frames Entertainment.</h1>
+      <p>Bringing stories to life through creativity, innovation, and motion.</p>
+    </div>
+  </section>
+
+  <section class="under-construction">
+    <div class="container">
+      <h2>We're working on something amazing!</h2>
+      <p>Our full website is currently under development. Stay tuned — we're launching soon.</p>
+      <p>For project inquiries, reach us at <a href="mailto:contact@novaframesent.com">contact@novaframesent.com</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      &copy; 2025 Nova Frames Entertainment. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
